@@ -1,10 +1,10 @@
-package com.bridgelabz.employepayrollapp.repository;
+//package com.bridgelabz.employepayrollapp.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+//import org.springframework.data.jpa.repository.JpaRepository;
+//import org.springframework.stereotype.Repository;
 
-import com.bridgelabz.employepayrollapp.model.EmployeePayrollData;
+//import com.bridgelabz.employepayrollapp.model.EmployeePayrollData;
 
-@Repository
-public interface EmployeeRepository extends JpaRepository <EmployeePayrollData, Integer > {
-}
+//@Repository
+//public interface EmployeeRepository extends JpaRepository <EmployeePayrollData, Integer > {
+//}
