@@ -1,7 +1,5 @@
 package com.bridgelabz.employepayrollapp.model;
 import com.bridgelabz.employepayrollapp.dto.EmployeePayrollDTO;
-
-
 import lombok.Data;
 
 import javax.persistence.*;
@@ -18,21 +16,21 @@ public class EmployeePayrollData {
     private int employeeId;
     @Column(name = "name")
     private String name;
-    @Column(name = "salary")
+
     private long salary;
-    @Column(name = "gender")
+
     private String gender;
-    @Column(name = "start_date")
+
     private LocalDate startDate;
-    @Column(name = "note")
+
     private String note;
-    @Column(name = "profile_pic")
+
     private String profilePic;
 
     @ElementCollection
     @CollectionTable(name = "employee_department",
             joinColumns = @JoinColumn(name ="id"))
-    @Column(name = "departments")
+    @Column(name = "department")
     private List<String> departments;
 
     public EmployeePayrollData() {
